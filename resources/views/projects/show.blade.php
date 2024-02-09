@@ -12,9 +12,11 @@
                 projects</a>
 
             <div class="card-custom">
+
+                {{-- Status progetto --}}
                 <p
-                    class=" header language fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
-                    {{ $project->status }}</p>
+                    class="header language fw-bold @if ($project->status->title === 'Completed') text-success @elseif ($project->status->title === 'Ongoing') text-secondary @elseif ($project->status->title === 'Aborted') text-danger  @elseif ($project->status->title === 'Suspended') text-warning @endif w-25 text-lowercase ">
+                    {{ $project->status->title }}</p>
                 <div class="main-content">
                     {{-- Titolo progetto --}}
 

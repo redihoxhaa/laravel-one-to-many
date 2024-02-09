@@ -23,9 +23,9 @@ class ProjectSeeder extends Seeder
             $project = new Project();
             $project->title = $projectData['title'];
             $project->type_id = $projectData['type_id'];
-            $project->status = $projectData['status'];
+            $project->status_id = $projectData['status_id'];
             $project->start_date = $projectData['start_date'];
-            if ($project->status === 'completed') {
+            if ($project->status_id === '2') {
                 $project->end_date = $projectData['end_date'];
             }
             $project->thumb = $projectData['thumb'];

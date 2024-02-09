@@ -101,12 +101,19 @@
                         @enderror
                     </div>
 
-                    {{-- Input status --}}
+                    {{-- Input categoria --}}
                     <div class="input-group flex-nowrap">
                         <span class="input-group-text text-capitalize">status</span>
-                        <input type="text" class="form-control @error('status') is-invalid @enderror" name="status"
-                            value="{{ old('status') }}">
-                        @error('status')
+                        <select class="form-select" aria-label="Default select example" name="status_id">
+                            <option selected>Choose status...</option>
+                            @foreach ($statuses as $status)
+                                <option value="{{ $status->id }}" @if (old('status_id') == $status->id) selected @endif>
+                                    {{ $status->title }}</option>
+                            @endforeach
+
+
+                        </select>
+                        @error('status_id')
                             <div class="alert alert-danger m-0">{{ $message }}</div>
                         @enderror
                     </div>

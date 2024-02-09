@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Project;
 use App\Http\Requests\StoreProjectRequest;
 use App\Http\Requests\UpdateProjectRequest;
+use App\Models\Status;
 use App\Models\Type;
 use Illuminate\Support\Str;
 
@@ -27,8 +28,9 @@ class ProjectController extends Controller
     public function create()
     {
         $types = Type::all();
+        $statuses = Status::all();
 
-        return view('projects.create', compact('types'));
+        return view('projects.create', compact('types', 'statuses'));
     }
 
     /**
@@ -48,7 +50,7 @@ class ProjectController extends Controller
         $project->description = $data['description'];
         $project->start_date = $data['start_date'];
         $project->end_date = $data['end_date'];
-        $project->status = $data['status'];
+        $project->status_id = $data['status_id'];
         $project->type_id = $data['type_id'];
         $project->language = $data['language'];
         $project->thumb = $data['thumb'];
@@ -77,7 +79,8 @@ class ProjectController extends Controller
     {
 
         $types = Type::all();
-        return view('projects.edit_page', compact('project', 'types'));
+        $statuses = Status::all();
+        return view('projects.edit_page', compact('project', 'types', 'statuses'));
     }
 
     /**

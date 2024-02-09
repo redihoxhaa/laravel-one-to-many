@@ -17,9 +17,11 @@
                             <li class="col-12 col-lg-6 col-xxl-4 d-flex">
 
                                 <div class="card-custom">
+
+                                    {{-- Status progetto --}}
                                     <p
-                                        class=" header language fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
-                                        {{ $project->status }}</p>
+                                        class="header language fw-bold @if ($project->status->title === 'Completed') text-success @elseif ($project->status->title === 'Ongoing') text-secondary @elseif ($project->status->title === 'Aborted') text-danger  @elseif ($project->status->title === 'Suspended') text-warning @endif w-25 text-lowercase ">
+                                        {{ $project->status->title }}</p>
                                     <div class="main-content">
                                         {{-- Titolo progetto --}}
                                         <a href="{{ route('admin.projects.show', $project) }}" class="heading">
@@ -41,6 +43,8 @@
                                             class="category text-uppercase badge bg-light text-black w-auto mx-auto my-3 p-2">
                                             {{ $project->type->title }}
                                         </p>
+
+                                        {{-- Linguaggi progetto --}}
 
                                         <div class="lang-container">
                                             <div class="skill-box">

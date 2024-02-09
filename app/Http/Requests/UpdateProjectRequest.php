@@ -28,10 +28,7 @@ class UpdateProjectRequest extends FormRequest
             'description' => 'nullable|string',
             'start_date' => 'nullable|date',
             'end_date' => 'nullable|date',
-            'status' => [
-                'required',
-                Rule::in(['ongoing', 'completed']),
-            ],
+            'status_id' => 'nullable|exists:statuses,id',
             'language' => 'required|string',
             'thumb' => 'required|url',
         ];
