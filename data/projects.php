@@ -3,7 +3,7 @@
 return [
     [
         'title' => 'laravel-auth',
-        'category' => 'backend',
+        'type_id' => '3',
         'start_date' => '2024-02-05',
         'language' => 'PHP',
         'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
@@ -11,7 +11,7 @@ return [
     ],
     [
         'title' => 'laravel-dc-comics',
-        'category' => 'backend',
+        'type_id' => '3',
         'start_date' => '2024-02-04',
         'end_date' => '2024-02-05',
         'language' => 'PHP',
@@ -20,7 +20,7 @@ return [
     ],
     [
         'title' => 'cocktails',
-        'category' => 'backend',
+        'type_id' => '3',
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
@@ -29,7 +29,7 @@ return [
     ],
     [
         'title' => 'laravel-migration-seeder',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
@@ -38,7 +38,7 @@ return [
     ],
     [
         'title' => 'laravel-template',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
@@ -47,7 +47,7 @@ return [
     ],
     [
         'title' => 'laravel-model-controller',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
@@ -56,7 +56,7 @@ return [
     ],
     [
         'title' => 'laravel-comics',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
@@ -65,7 +65,7 @@ return [
     ],
     [
         'title' => 'laravel-primi-passi',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-21',
         'end_date' => '2024-01-22',
         'language' => 'PHP',
@@ -74,7 +74,7 @@ return [
     ],
     [
         'title' => 'db-university',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-21',
         'end_date' => '2024-01-22',
         'language' => 'SQL',
@@ -83,7 +83,7 @@ return [
     ],
     [
         'title' => 'db-first',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'SQL',
@@ -92,7 +92,7 @@ return [
     ],
     [
         'title' => 'php-oop-2',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
@@ -101,7 +101,7 @@ return [
     ],
     [
         'title' => 'php-oop-1',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
@@ -110,7 +110,7 @@ return [
     ],
     [
         'title' => 'php-dischi-json',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
@@ -119,7 +119,7 @@ return [
     ],
     [
         'title' => 'php-iscrizione-newsletter',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
@@ -128,7 +128,7 @@ return [
     ],
     [
         'title' => 'php-hotel',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
@@ -137,7 +137,7 @@ return [
     ],
     [
         'title' => 'php-badwords',
-        'category' => 'backend',
+        'type_id' => '2',
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
@@ -146,7 +146,7 @@ return [
     ],
     [
         'title' => 'proj-html-vuejs',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-21',
         'end_date' => '2023-12-22',
         'language' => 'Vue',
@@ -155,7 +155,7 @@ return [
     ],
     [
         'title' => 'vite-boolflix',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-19',
         'end_date' => '2023-12-20',
         'language' => 'Vue',
@@ -164,7 +164,7 @@ return [
     ],
     [
         'title' => 'vite-yu-gi-oh',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-13',
         'end_date' => '2023-12-14',
         'language' => 'Vue',
@@ -173,7 +173,7 @@ return [
     ],
     [
         'title' => 'vite-comics',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-11',
         'end_date' => '2023-12-12',
         'language' => 'Vue',
@@ -182,7 +182,7 @@ return [
     ],
     [
         'title' => 'vite-hello-world',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-06',
         'end_date' => '2023-12-07',
         'language' => 'Vue',
@@ -191,7 +191,7 @@ return [
     ],
     [
         'title' => 'vue-email-list',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-05',
         'end_date' => '2023-12-06',
         'language' => 'Vue',
@@ -200,7 +200,7 @@ return [
     ],
     [
         'title' => 'vue-boolzapp',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-04',
         'end_date' => '2023-12-05',
         'language' => 'Vue',
@@ -209,7 +209,7 @@ return [
     ],
     [
         'title' => 'vue-todolist',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'Vue',
@@ -218,7 +218,7 @@ return [
     ],
     [
         'title' => 'vue-slider',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-28',
         'end_date' => '2023-11-29',
         'language' => 'Vue',
@@ -227,7 +227,7 @@ return [
     ],
     [
         'title' => 'vue-hello',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-27',
         'end_date' => '2023-11-28',
         'language' => 'Vue',
@@ -236,7 +236,7 @@ return [
     ],
     [
         'title' => 'js-our-team',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'JavaScript',
@@ -245,7 +245,7 @@ return [
     ],
     [
         'title' => 'js-array-objects-carousel',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'JavaScript',
@@ -254,7 +254,7 @@ return [
     ],
     [
         'title' => 'js-debug',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-23',
         'end_date' => '2023-11-24',
         'language' => 'JavaScript',
@@ -263,7 +263,7 @@ return [
     ],
     [
         'title' => 'js-snack-es6',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-22',
         'end_date' => '2023-11-23',
         'language' => 'JavaScript',
@@ -272,7 +272,7 @@ return [
     ],
     [
         'title' => 'js-carousel-autoplay',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-17',
         'end_date' => '2023-11-18',
         'language' => 'JavaScript',
@@ -281,7 +281,7 @@ return [
     ],
     [
         'title' => 'js-campominato-dom',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-16',
         'end_date' => '2023-11-17',
         'language' => 'JavaScript',
@@ -290,7 +290,7 @@ return [
     ],
     [
         'title' => 'js-campominato-grid',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-16',
         'end_date' => '2023-11-17',
         'language' => 'JavaScript',
@@ -299,7 +299,7 @@ return [
     ],
     [
         'title' => 'js-paliedispari',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-14',
         'end_date' => '2023-11-15',
         'language' => 'JavaScript',
@@ -308,7 +308,7 @@ return [
     ],
     [
         'title' => 'js-jsnacks-blocco-1',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-14',
         'end_date' => '2023-11-15',
         'language' => 'JavaScript',
@@ -317,7 +317,7 @@ return [
     ],
     [
         'title' => 'js-lista-spesa',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-13',
         'end_date' => '2023-11-14',
         'language' => 'JavaScript',
@@ -326,7 +326,7 @@ return [
     ],
     [
         'title' => 'js-array-carousel',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-13',
         'end_date' => '2023-11-14',
         'language' => 'JavaScript',
@@ -335,7 +335,7 @@ return [
     ],
     [
         'title' => 'js-mail-dadi',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-10',
         'end_date' => '2023-11-11',
         'language' => 'JavaScript',
@@ -344,7 +344,7 @@ return [
     ],
     [
         'title' => 'js-fizzbuzz',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-09',
         'end_date' => '2023-11-10',
         'language' => 'JavaScript',
@@ -353,7 +353,7 @@ return [
     ],
     [
         'title' => 'js-biglietto-treno-form',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-08',
         'end_date' => '2023-11-09',
         'language' => 'JavaScript',
@@ -362,7 +362,7 @@ return [
     ],
     [
         'title' => 'js-biglietto-treno',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-11-07',
         'end_date' => '2023-11-08',
         'language' => 'JavaScript',
@@ -371,7 +371,7 @@ return [
     ],
     [
         'title' => 'html-css-bootstrap-dashboard',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-27',
         'end_date' => '2023-10-28',
         'language' => 'HTML, CSS',
@@ -380,7 +380,7 @@ return [
     ],
     [
         'title' => 'html-css-bootstrap-freelancer',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-25',
         'end_date' => '2023-10-26',
         'language' => 'HTML, CSS',
@@ -389,7 +389,7 @@ return [
     ],
     [
         'title' => 'html-css-spotifyweb',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-20',
         'end_date' => '2023-10-21',
         'language' => 'HTML, CSS',
@@ -398,7 +398,7 @@ return [
     ],
     [
         'title' => 'htmlcss-responsive-layout',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-18',
         'end_date' => '2023-10-19',
         'language' => 'HTML, CSS',
@@ -407,7 +407,7 @@ return [
     ],
     [
         'title' => 'html-css-resp-wannabe',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-16',
         'end_date' => '2023-10-17',
         'language' => 'HTML, CSS',
@@ -416,7 +416,7 @@ return [
     ],
     [
         'title' => 'htmlcss-dropbox',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-13',
         'end_date' => '2023-10-14',
         'language' => 'HTML, CSS',
@@ -425,7 +425,7 @@ return [
     ],
     [
         'title' => 'html-css-animation-filter',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-07',
         'end_date' => '2023-10-08',
         'language' => 'HTML, CSS',
@@ -434,7 +434,7 @@ return [
     ],
     [
         'title' => 'html-css-zoom',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-06',
         'end_date' => '2023-10-07',
         'language' => 'HTML, CSS',
@@ -443,7 +443,7 @@ return [
     ],
     [
         'title' => 'html-css-boolando',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-05',
         'end_date' => '2023-10-06',
         'language' => 'HTML, CSS',
@@ -452,7 +452,7 @@ return [
     ],
     [
         'title' => 'htmlcss-discord',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-03',
         'end_date' => '2023-10-04',
         'language' => 'HTML, CSS',
@@ -461,7 +461,7 @@ return [
     ],
     [
         'title' => 'htmlcss-struttura-discord',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-10-02',
         'end_date' => '2023-10-03',
         'language' => 'HTML, CSS',
@@ -470,7 +470,7 @@ return [
     ],
     [
         'title' => 'html-css-float-cards',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-09-29',
         'end_date' => '2023-09-30',
         'language' => 'HTML, CSS',
@@ -479,7 +479,7 @@ return [
     ],
     [
         'title' => 'html-css-toboolist',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-09-27',
         'end_date' => '2023-09-28',
         'language' => 'HTML, CSS',
@@ -488,7 +488,7 @@ return [
     ],
     [
         'title' => 'html-css-booleaner',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-09-26',
         'end_date' => '2023-09-27',
         'language' => 'HTML, CSS',
@@ -497,7 +497,7 @@ return [
     ],
     [
         'title' => 'html-london-trip',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-09-25',
         'end_date' => '2023-09-26',
         'language' => 'HTML, CSS',
@@ -506,7 +506,7 @@ return [
     ],
     [
         'title' => 'htmlcss-hello',
-        'category' => 'frontend',
+        'type_id' => '1',
         'start_date' => '2023-09-21',
         'end_date' => '2023-09-22',
         'language' => 'HTML, CSS',

@@ -24,16 +24,13 @@ class UpdateProjectRequest extends FormRequest
     {
         return [
             'title' => 'required|unique:projects,title,' . $this->project->id . '|max:50',
+            'type_id' => 'nullable|exists:types,id',
             'description' => 'nullable|string',
             'start_date' => 'nullable|date',
             'end_date' => 'nullable|date',
             'status' => [
                 'required',
                 Rule::in(['ongoing', 'completed']),
-            ],
-            'category' => [
-                'required',
-                Rule::in(['frontend', 'backend']),
             ],
             'language' => 'required|string',
             'thumb' => 'required|url',

@@ -14,12 +14,15 @@ class ProjectSeeder extends Seeder
      */
     public function run(): void
     {
+
+        Project::truncate();
+
         $projects = include base_path('data/projects.php');
 
         foreach ($projects as $projectData) {
             $project = new Project();
             $project->title = $projectData['title'];
-            $project->category = $projectData['category'];
+            $project->type_id = $projectData['type_id'];
             $project->status = $projectData['status'];
             $project->start_date = $projectData['start_date'];
             if ($project->status === 'completed') {

@@ -24,6 +24,7 @@ class StoreProjectRequest extends FormRequest
     {
         return [
             'title' => 'required|unique:projects|max:50',
+            'type_id' => 'nullable|exists:types,id',
             'description' => 'nullable|string',
             'start_date' => 'nullable|date',
             'end_date' => 'nullable|date',
@@ -31,12 +32,9 @@ class StoreProjectRequest extends FormRequest
                 'required',
                 Rule::in(['ongoing', 'completed']),
             ],
-            'category' => [
-                'required',
-                Rule::in(['frontend', 'backend']),
-            ],
             'language' => 'required|string',
             'thumb' => 'required|url',
+
         ];
     }
 }

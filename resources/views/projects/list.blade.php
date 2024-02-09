@@ -39,7 +39,7 @@
                                         {{-- Categoria progetto --}}
                                         <p
                                             class="category text-uppercase badge bg-light text-black w-auto mx-auto my-3 p-2">
-                                            {{ $project->category }}
+                                            {{ $project->type->title }}
                                         </p>
 
                                         <div class="lang-container">

@@ -77,10 +77,17 @@
 
                     {{-- Input categoria --}}
                     <div class="input-group flex-nowrap">
-                        <span class="input-group-text text-capitalize">category</span>
-                        <input type="text" class="form-control @error('category') is-invalid @enderror" name="category"
-                            value="{{ old('category', $project->category) }}">
-                        @error('category')
+                        <span class="input-group-text text-capitalize">type</span>
+                        <select class="form-select" aria-label="Default select example" name="type_id">
+                            <option selected>Choose type...</option>
+                            @foreach ($types as $type)
+                                <option value="{{ $type->id }}" @if (old('type_id', $project->type_id) == $type->id) selected @endif>
+                                    {{ $type->title }}</option>
+                            @endforeach
+
+
+                        </select>
+                        @error('type_id')
                             <div class="alert alert-danger m-0">{{ $message }}</div>
                         @enderror
                     </div>
