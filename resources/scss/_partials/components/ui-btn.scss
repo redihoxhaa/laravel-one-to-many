@@ -32,6 +32,10 @@
     transition: var(--btn-transition);
     overflow: hidden;
     box-shadow: var(--btn-shadow);
+
+    input {
+        all: unset;
+    }
 }
 
 .ui-btn div {

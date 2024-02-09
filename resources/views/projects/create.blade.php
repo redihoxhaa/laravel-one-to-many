@@ -3,13 +3,17 @@
 @section('content')
     <div class="project-update container">
         <div class="row justify-content-center">
-            <div class="col-12 mt-4">
-                <h2>Create another project</h2>
 
-                {{-- Link per tonare a tutti i progetti --}}
-                <a href="{{ route('admin.projects.index') }}" class="btn btn-danger mb-5 mt-4 text-uppercase">Take a look at
-                    all the
-                    projects</a>
+            {{-- Link per tonare a tutti i progetti --}}
+            <a href="{{ route('admin.projects.index') }}"
+                class="btn custom-btn orange text-uppercase mb-5 mt-5 fw-bold mx-auto d-block">Take a look at
+                all the
+                projects</a>
+
+            <div class="col-12 card-custom p-5">
+                <h2 class="text-center py-5">Create another project</h2>
+
+
 
                 {{-- Form di upload nuovo progetto --}}
                 <form class="d-flex flex-column align-items-center gap-3 w-100" action="{{ route('admin.projects.store') }}"
@@ -98,7 +102,9 @@
                     </div>
 
                     {{-- Bottone submit --}}
-                    <button type="submit" class="btn btn-success w-25 my-3">Create project</button>
+                    <button type="submit"
+                        class="btn custom-btn white text-uppercase mb-4 mt-5 fw-bold mx-auto d-block">Create
+                        project</button>
                 </form>
             </div>
         </div>

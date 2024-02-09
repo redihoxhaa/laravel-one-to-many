@@ -2,64 +2,119 @@
 
 @section('content')
     <div class="project-show container">
-        <div class="row justify-content-center">
-            <div class="col-12 mt-4">
-                {{-- Collegamento a tutti i fumetti --}}
-                <a href="{{ route('admin.projects.index') }}" class="btn btn-danger mb-5 text-uppercase">Take a look at all
-                    the
-                    projects</a>
 
-                <div class="row d-flex">
-                    <div class="col-6">
+        <div class="mt-4">
+            {{-- Collegamento a tutti i fumetti --}}
+            <a href="{{ route('admin.projects.index') }}"
+                class="btn custom-btn orange text-uppercase mb-5 mt-5 fw-bold mx-auto d-block">Take
+                a look at all
+                the
+                projects</a>
 
-                        {{-- Immagine progetto --}}
+            <div class="card-custom">
+                <p
+                    class=" header language fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
+                    {{ $project->status }}</p>
+                <div class="main-content">
+                    {{-- Titolo progetto --}}
 
-                        <div class="pic-container">
-                            <img src="{{ $project->thumb }}" alt="{{ $project->title }} thumb">
+                    <h3 class="title py-3">{{ $project->title }}</h3>
+
+                    {{-- Data inizio progetto --}}
+                    <p class="start-date pt-1">Project started on
+                        {{ \Carbon\Carbon::parse($project->start_date)->format('M d Y') }}</p>
+
+                    {{-- Data fine progetto --}}
+                    @isset($project->end_date)
+                        <p class="end-date">and ended on
+                            {{ \Carbon\Carbon::parse($project->end_date)->format('M d Y') }}</p>
+                    @endisset
+
+                    {{-- Categoria progetto --}}
+                    <p class="category text-uppercase badge bg-light text-black w-auto mx-auto my-3 p-2">
+                        {{ $project->category }}
+                    </p>
+
+                    <div class="lang-container">
+                        <div class="skill-box">
+                            <span class="title">{{ $project->language }} </span>
+                            <div class="skill-bar">
+                                <span class="skill-per html">
+                                </span>
+                            </div>
                         </div>
 
+                        <div class="skill-box">
+                            <span class="title">SCSS</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per scss">
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Boostrap</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per Boostrap">
+
+                                </span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-6 d-flex flex-column">
+                </div>
 
-                        <div class="card-body d-flex flex-column">
+                <div class="footer">
 
-                            {{-- Titolo progetto --}}
-                            <a href="{{ route('admin.projects.show', $project) }}">
-                                <h3 class="title pt-3">{{ $project->title }}</h3>
-                            </a>
+                    {{-- Pulsanti --}}
+                    <div class="buttons row g-0">
+                        <a href="{{ route('admin.projects.edit', $project) }}" class="col-6"><button class="ui-btn">
+                                <div class="text-uppercase">Edit</div>
+                            </button>
+                        </a>
 
-                            {{-- Stato progetto --}}
-                            <p
-                                class="language fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
-                                {{ $project->status }}</p>
 
-                            {{-- Descrizione progetto --}}
-                            <p class="description">{{ $project->description }}</p>
-
-                            <div class="card p-3 mt-2 mb-4">
-                                {{-- Data inizio progetto --}}
-                                <span class="start-date py-3">Project started on
-                                    {{ \Carbon\Carbon::parse($project->start_date)->format('M d Y') }}</span>
-
-                                @isset($project->end_date)
-                                    {{-- Data fine progetto --}}
-                                    <span class="end-date py-3">Project ended on
-                                        {{ \Carbon\Carbon::parse($project->end_date)->format('M d Y') }}</span>
-                                @endisset
+                        <button class="ui-btn col-6" data-bs-toggle="modal" data-bs-target="#my-dialog-{{ $project->id }}">
+                            <div class="text-uppercase">
+                                Delete
                             </div>
+                        </button>
+                    </div>
 
-                            {{-- Categoria progetto --}}
-                            <p class="category text-uppercase badge bg-info w-auto mx-auto my-3 p-2">
-                                Category: {{ $project->category }}
-                            </p>
+                    {{-- Modale --}}
+                    <div class="modal" id="my-dialog-{{ $project->id }}">
+                        <div class="modal-dialog">
+                            <div class="modal-content card-custom">
 
+                                {{-- Messaggio di alert --}}
+                                <div class="modal-header text-center">
+                                    <h3>Are you sure?</h3>
+                                </div>
 
-                            {{-- Linguaggio progetto --}}
-                            <p class="language badge bg-primary w-auto mx-auto p-2">Developed using
-                                {{ $project->language }}</p>
+                                {{-- Informazione operazione --}}
+                                <div class="modal-body text-center">
+                                    You are about to delete {{ $project->title }}</span>
+                                </div>
+
+                                <div class="modal-footer">
+
+                                    {{-- Pulsante annulla --}}
+                                    <button class="btn custom-btn white text-uppercase mb-4 mt-5 fw-bold"
+                                        data-bs-dismiss="modal">Keep
+                                    </button>
+
+                                    {{-- Pulsante elimina --}}
+                                    <form action="{{ route('admin.projects.destroy', $project) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <input class="btn custom-btn white text-uppercase mb-4 mt-5 fw-bold" type="submit"
+                                            value="DELETE">
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
                 </div>

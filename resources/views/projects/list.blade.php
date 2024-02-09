@@ -14,11 +14,11 @@
 
                     <ul class="row g-5">
                         @foreach ($projects as $project)
-                            <li class="col-12 col-md-6 col-lg-4 d-flex">
+                            <li class="col-12 col-lg-6 col-xxl-4 d-flex">
 
                                 <div class="card-custom">
                                     <p
-                                        class=" headerlanguage fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
+                                        class=" header language fw-bold @if ($project->status === 'completed') text-success @else text-secondary @endif w-25 ">
                                         {{ $project->status }}</p>
                                     <div class="main-content">
                                         {{-- Titolo progetto --}}
@@ -77,13 +77,19 @@
 
                                         {{-- Pulsanti --}}
                                         <div class="buttons row g-0">
-                                            <a href="{{ route('admin.projects.edit', $project) }}" class="col-6"><button
+                                            <a href="{{ route('admin.projects.edit', $project) }}" class="col-4"><button
                                                     class="ui-btn">
                                                     <div class="text-uppercase">Edit</div>
                                                 </button>
                                             </a>
 
-                                            <button class="ui-btn col-6" data-bs-toggle="modal"
+                                            <a href="{{ route('admin.projects.show', $project) }}" class="col-4"><button
+                                                    class="ui-btn">
+                                                    <div class="text-uppercase">Show</div>
+                                                </button>
+                                            </a>
+
+                                            <button class="ui-btn col-4" data-bs-toggle="modal"
                                                 data-bs-target="#my-dialog-{{ $project->id }}">
                                                 <div class="text-uppercase">
                                                     Delete
@@ -91,10 +97,11 @@
                                             </button>
                                         </div>
 
+
                                         {{-- Modale --}}
                                         <div class="modal" id="my-dialog-{{ $project->id }}">
                                             <div class="modal-dialog">
-                                                <div class="modal-content">
+                                                <div class="modal-content card-custom">
 
                                                     {{-- Messaggio di alert --}}
                                                     <div class="modal-header text-center">
@@ -109,8 +116,9 @@
                                                     <div class="modal-footer">
 
                                                         {{-- Pulsante annulla --}}
-                                                        <button class="btn btn-success text-uppercase"
-                                                            data-bs-dismiss="modal">Keep
+                                                        <button
+                                                            class="btn custom-btn white text-uppercase mb-4 mt-5 fw-bold"
+                                                            data-bs-dismiss="modal">Dismiss
                                                         </button>
 
                                                         {{-- Pulsante elimina --}}
@@ -118,8 +126,9 @@
                                                             method="POST">
                                                             @csrf
                                                             @method('DELETE')
-                                                            <input class="btn btn-danger text-uppercase" type="submit"
-                                                                value="DELETE">
+                                                            <input
+                                                                class="btn custom-btn white text-uppercase mb-4 mt-5 fw-bold"
+                                                                type="submit" value="DELETE">
                                                         </form>
                                                     </div>
                                                 </div>
