@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    {{ $project->title }} - Portoflio
+@endsection
+
 @section('content')
     <div class="project-show container">
 
@@ -18,9 +22,17 @@
                     class="header language fw-bold @if ($project->status->title === 'Completed') text-success @elseif ($project->status->title === 'Ongoing') text-secondary @elseif ($project->status->title === 'Aborted') text-danger  @elseif ($project->status->title === 'Suspended') text-warning @endif w-25 text-lowercase ">
                     {{ $project->status->title }}</p>
                 <div class="main-content">
-                    {{-- Titolo progetto --}}
 
+                    {{-- Titolo progetto --}}
                     <h3 class="title py-3">{{ $project->title }}</h3>
+
+                    {{-- Thumb progetto --}}
+                    @if (isset($project->thumb))
+                        <div class="pic-container pt-4 pb-5">
+                            <img src="{{ asset('storage/' . $project->thumb) }}" alt="{{ $project->title }} thumb">
+
+                        </div>
+                    @endif
 
                     {{-- Data inizio progetto --}}
                     <p class="start-date pt-1">Project started on
@@ -78,7 +90,8 @@
                         </a>
 
 
-                        <button class="ui-btn col-6" data-bs-toggle="modal" data-bs-target="#my-dialog-{{ $project->id }}">
+                        <button class="ui-btn col-6" data-bs-toggle="modal"
+                            data-bs-target="#my-dialog-{{ $project->id }}">
                             <div class="text-uppercase">
                                 Delete
                             </div>
@@ -97,7 +110,7 @@
 
                                 {{-- Informazione operazione --}}
                                 <div class="modal-body text-center">
-                                    You are about to delete {{ $project->title }}</span>
+                                    You are about to delete <br> {{ $project->title }}</span>
                                 </div>
 
                                 <div class="modal-footer">

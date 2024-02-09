@@ -7,7 +7,6 @@ return [
         'type_id' => '3',
         'start_date' => '2024-02-05',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-dc-comics',
@@ -16,7 +15,6 @@ return [
         'start_date' => '2024-02-04',
         'end_date' => '2024-02-05',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'cocktails',
@@ -25,7 +23,6 @@ return [
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-migration-seeder',
@@ -34,7 +31,6 @@ return [
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-template',
@@ -43,7 +39,6 @@ return [
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-model-controller',
@@ -52,7 +47,6 @@ return [
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-comics',
@@ -61,7 +55,6 @@ return [
         'start_date' => '2024-01-28',
         'end_date' => '2024-01-29',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'laravel-primi-passi',
@@ -70,7 +63,6 @@ return [
         'start_date' => '2024-01-21',
         'end_date' => '2024-01-22',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'db-university',
@@ -79,7 +71,6 @@ return [
         'start_date' => '2024-01-21',
         'end_date' => '2024-01-22',
         'language' => 'SQL',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'db-first',
@@ -88,7 +79,6 @@ return [
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'SQL',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-oop-2',
@@ -97,7 +87,6 @@ return [
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-oop-1',
@@ -106,7 +95,6 @@ return [
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-dischi-json',
@@ -115,7 +103,6 @@ return [
         'start_date' => '2024-01-14',
         'end_date' => '2024-01-15',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-iscrizione-newsletter',
@@ -124,7 +111,6 @@ return [
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-hotel',
@@ -133,7 +119,6 @@ return [
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'php-badwords',
@@ -142,7 +127,6 @@ return [
         'start_date' => '2023-12-31',
         'end_date' => '2024-01-01',
         'language' => 'PHP',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'proj-html-vuejs',
@@ -151,7 +135,6 @@ return [
         'start_date' => '2023-12-21',
         'end_date' => '2023-12-22',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vite-boolflix',
@@ -160,7 +143,6 @@ return [
         'start_date' => '2023-12-19',
         'end_date' => '2023-12-20',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vite-yu-gi-oh',
@@ -169,7 +151,6 @@ return [
         'start_date' => '2023-12-13',
         'end_date' => '2023-12-14',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vite-comics',
@@ -178,7 +159,6 @@ return [
         'start_date' => '2023-12-11',
         'end_date' => '2023-12-12',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vite-hello-world',
@@ -187,7 +167,6 @@ return [
         'start_date' => '2023-12-06',
         'end_date' => '2023-12-07',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vue-email-list',
@@ -196,7 +175,6 @@ return [
         'start_date' => '2023-12-05',
         'end_date' => '2023-12-06',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vue-boolzapp',
@@ -205,7 +183,6 @@ return [
         'start_date' => '2023-12-04',
         'end_date' => '2023-12-05',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vue-todolist',
@@ -214,7 +191,6 @@ return [
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vue-slider',
@@ -223,7 +199,6 @@ return [
         'start_date' => '2023-11-28',
         'end_date' => '2023-11-29',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'vue-hello',
@@ -232,7 +207,6 @@ return [
         'start_date' => '2023-11-27',
         'end_date' => '2023-11-28',
         'language' => 'Vue',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-our-team',
@@ -241,7 +215,6 @@ return [
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-array-objects-carousel',
@@ -250,7 +223,6 @@ return [
         'start_date' => '2023-12-01',
         'end_date' => '2023-12-02',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-debug',
@@ -259,7 +231,6 @@ return [
         'start_date' => '2023-11-23',
         'end_date' => '2023-11-24',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-snack-es6',
@@ -268,7 +239,6 @@ return [
         'start_date' => '2023-11-22',
         'end_date' => '2023-11-23',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-carousel-autoplay',
@@ -277,7 +247,6 @@ return [
         'start_date' => '2023-11-17',
         'end_date' => '2023-11-18',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-campominato-dom',
@@ -286,7 +255,6 @@ return [
         'start_date' => '2023-11-16',
         'end_date' => '2023-11-17',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-campominato-grid',
@@ -295,7 +263,6 @@ return [
         'start_date' => '2023-11-16',
         'end_date' => '2023-11-17',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-paliedispari',
@@ -304,7 +271,6 @@ return [
         'start_date' => '2023-11-14',
         'end_date' => '2023-11-15',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-jsnacks-blocco-1',
@@ -313,7 +279,6 @@ return [
         'start_date' => '2023-11-14',
         'end_date' => '2023-11-15',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-lista-spesa',
@@ -322,7 +287,6 @@ return [
         'start_date' => '2023-11-13',
         'end_date' => '2023-11-14',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-array-carousel',
@@ -331,7 +295,6 @@ return [
         'start_date' => '2023-11-13',
         'end_date' => '2023-11-14',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-mail-dadi',
@@ -340,7 +303,6 @@ return [
         'start_date' => '2023-11-10',
         'end_date' => '2023-11-11',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-fizzbuzz',
@@ -349,7 +311,6 @@ return [
         'start_date' => '2023-11-09',
         'end_date' => '2023-11-10',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-biglietto-treno-form',
@@ -358,7 +319,6 @@ return [
         'start_date' => '2023-11-08',
         'end_date' => '2023-11-09',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'js-biglietto-treno',
@@ -367,7 +327,6 @@ return [
         'start_date' => '2023-11-07',
         'end_date' => '2023-11-08',
         'language' => 'JavaScript',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-bootstrap-dashboard',
@@ -376,7 +335,6 @@ return [
         'start_date' => '2023-10-27',
         'end_date' => '2023-10-28',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-bootstrap-freelancer',
@@ -385,7 +343,6 @@ return [
         'start_date' => '2023-10-25',
         'end_date' => '2023-10-26',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-spotifyweb',
@@ -394,7 +351,6 @@ return [
         'start_date' => '2023-10-20',
         'end_date' => '2023-10-21',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'htmlcss-responsive-layout',
@@ -403,7 +359,6 @@ return [
         'start_date' => '2023-10-18',
         'end_date' => '2023-10-19',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-resp-wannabe',
@@ -412,7 +367,6 @@ return [
         'start_date' => '2023-10-16',
         'end_date' => '2023-10-17',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'htmlcss-dropbox',
@@ -421,7 +375,6 @@ return [
         'start_date' => '2023-10-13',
         'end_date' => '2023-10-14',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-animation-filter',
@@ -430,7 +383,6 @@ return [
         'start_date' => '2023-10-07',
         'end_date' => '2023-10-08',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-zoom',
@@ -439,7 +391,6 @@ return [
         'start_date' => '2023-10-06',
         'end_date' => '2023-10-07',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-boolando',
@@ -448,7 +399,6 @@ return [
         'start_date' => '2023-10-05',
         'end_date' => '2023-10-06',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'htmlcss-discord',
@@ -457,7 +407,6 @@ return [
         'start_date' => '2023-10-03',
         'end_date' => '2023-10-04',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'htmlcss-struttura-discord',
@@ -466,7 +415,6 @@ return [
         'start_date' => '2023-10-02',
         'end_date' => '2023-10-03',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-float-cards',
@@ -475,7 +423,6 @@ return [
         'start_date' => '2023-09-29',
         'end_date' => '2023-09-30',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-toboolist',
@@ -484,7 +431,6 @@ return [
         'start_date' => '2023-09-27',
         'end_date' => '2023-09-28',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-css-booleaner',
@@ -493,7 +439,6 @@ return [
         'start_date' => '2023-09-26',
         'end_date' => '2023-09-27',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'html-london-trip',
@@ -502,7 +447,6 @@ return [
         'start_date' => '2023-09-25',
         'end_date' => '2023-09-26',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
     [
         'title' => 'htmlcss-hello',
@@ -511,6 +455,5 @@ return [
         'start_date' => '2023-09-21',
         'end_date' => '2023-09-22',
         'language' => 'HTML, CSS',
-        'thumb' => 'https://lwfiles.mycourse.app/6368e5089f20781a7e4f1805-public/2c162927114072f9ebbf04043a593fb9.png',
     ],
 ];

@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    Projects List - Portoflio
+@endsection
+
 @section('content')
     <div class="project-list container">
         <div class="row justify-content-center">
@@ -114,7 +118,7 @@
 
                                                     {{-- Informazione operazione --}}
                                                     <div class="modal-body text-center">
-                                                        You are about to delete {{ $project->title }}</span>
+                                                        You are about to delete <br> {{ $project->title }}</span>
                                                     </div>
 
                                                     <div class="modal-footer">

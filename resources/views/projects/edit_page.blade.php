@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    Edit {{ $project->title }} - Portoflio
+@endsection
+
 @section('content')
     <div class="project-update container">
         <div class="row justify-content-center">
@@ -18,7 +22,7 @@
 
                 {{-- Form di upload nuovo progetto --}}
                 <form class="d-flex flex-column align-items-center gap-3 w-100"
-                    action="{{ route('admin.projects.update', $project) }}" method="POST">
+                    action="{{ route('admin.projects.update', $project) }}" method="POST" enctype="multipart/form-data">
 
                     {{-- Token autenticazione  --}}
                     @csrf
@@ -36,11 +40,11 @@
                         @enderror
                     </div>
 
-                    {{-- Input URL thumb --}}
+                    {{-- Input thumb --}}
                     <div class="input-group flex-nowrap">
-                        <span class="input-group-text text-capitalize">thumb URL</span>
-                        <input type="text" class="form-control @error('thumb') is-invalid @enderror" name="thumb"
-                            value="{{ old('thumb', $project->thumb) }}" required>
+                        <div class="input-group">
+                            <input class="form-control" type="file" id="thumb" name="thumb">
+                        </div>
                         @error('thumb')
                             <div class="alert alert-danger m-0">{{ $message }}</div>
                         @enderror

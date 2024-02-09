@@ -28,7 +28,6 @@ class ProjectSeeder extends Seeder
             if ($project->status_id === '2') {
                 $project->end_date = $projectData['end_date'];
             }
-            $project->thumb = $projectData['thumb'];
             $project->language = $projectData['language'];
             $project->slug = Str::slug($projectData['title']);
             $project->save();

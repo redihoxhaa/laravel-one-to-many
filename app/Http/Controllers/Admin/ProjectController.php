@@ -8,6 +8,7 @@ use App\Http\Requests\StoreProjectRequest;
 use App\Http\Requests\UpdateProjectRequest;
 use App\Models\Status;
 use App\Models\Type;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
 class ProjectController extends Controller
@@ -53,8 +54,10 @@ class ProjectController extends Controller
         $project->status_id = $data['status_id'];
         $project->type_id = $data['type_id'];
         $project->language = $data['language'];
-        $project->thumb = $data['thumb'];
         $project->slug = Str::slug($data['title']);
+        if (isset($data['thumb'])) {
+            $project->thumb = Storage::put('uploads', $data['thumb']);
+        }
 
         // Salvo l'istanza
         $project->save();
@@ -102,7 +105,12 @@ class ProjectController extends Controller
      * Remove the specified resource from storage.
      */
     public function destroy(Project $project)
+
     {
+
+        if ($project->thumb) {
+            Storage::delete($project->thumb);
+        }
         $project->delete();
 
         return redirect()->route('admin.projects.index');
